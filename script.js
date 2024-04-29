@@ -6,9 +6,9 @@ setInterval(() => {
     let ampm = document.getElementById('ampm');
   
     // digits time indicator
-    let hh = document.getElementById('hh'); 
-    let mm = document.getElementById('mm');
-    let ss = document.getElementById('ss');
+    let hh = document.getElementById('hh');  
+    let mm = document.getElementById('mm'); 
+    let ss = document.getElementById('ss'); 
   
   
     // dot time indicator
