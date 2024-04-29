@@ -12,9 +12,9 @@ setInterval(() => {
   
   
     // dot time indicator
-    let dotH = document.querySelector('.h_dot');
-    let dotM = document.querySelector('.m_dot'); 
-    let dotS = document.querySelector('.s_dot');
+    let dotH = document.querySelector('.h_dot'); 
+    let dotM = document.querySelector('.m_dot');  
+    let dotS = document.querySelector('.s_dot'); 
   
     // get current time
     let h = new Date().getHours();
