@@ -1,19 +1,19 @@
 setInterval(() => {
     // get time indicator elements
-    let hours = document.getElementById('hours');
-    let minutes = document.getElementById('minutes');
-    let secondes = document.getElementById('seconds');
+    let hours = document.getElementById('hours'); 
+    let minutes = document.getElementById('minutes'); 
+    let secondes = document.getElementById('seconds');  
     let ampm = document.getElementById('ampm');
   
     // digits time indicator
-    let hh = document.getElementById('hh');
+    let hh = document.getElementById('hh'); 
     let mm = document.getElementById('mm');
     let ss = document.getElementById('ss');
   
   
     // dot time indicator
     let dotH = document.querySelector('.h_dot');
-    let dotM = document.querySelector('.m_dot');
+    let dotM = document.querySelector('.m_dot'); 
     let dotS = document.querySelector('.s_dot');
   
     // get current time
