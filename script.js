@@ -24,7 +24,7 @@ setInterval(() => {
   
     // convert to 12 hour format
     if (h > 12) {
-      h = h - 12;
+      h = h - 12; 
     }
   
     // add 0 before single digit
@@ -40,7 +40,7 @@ setInterval(() => {
   
     // set time circular indicator
     hh.style.strokeDashoffset = 440 - (440 * h) / 12;
-    mm.style.strokeDashoffset = 440 - (440 * m) / 60;
+    mm.style.strokeDashoffset = 440 - (440 * m) / 60; 
     ss.style.strokeDashoffset = 440 - (440 * s) / 60;
   
     // set dot time position indicator
