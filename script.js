@@ -17,9 +17,9 @@ setInterval(() => {
     let dotS = document.querySelector('.s_dot'); 
   
     // get current time
-    let h = new Date().getHours();
-    let m = new Date().getMinutes();
-    let s = new Date().getSeconds();
+    let h = new Date().getHours(); 
+    let m = new Date().getMinutes(); 
+    let s = new Date().getSeconds();   
     let ap = h >= 12 ? 'PM' : 'AM';
   
     // convert to 12 hour format
